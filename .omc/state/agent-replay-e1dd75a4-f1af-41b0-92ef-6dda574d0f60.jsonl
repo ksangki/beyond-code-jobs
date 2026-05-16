@@ -1,0 +1,15 @@
+{"t":0,"agent":"ab5f5c0","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a107726","agent_type":"web-researcher","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a28c025","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"ae961b2","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a107726","agent_type":"web-researcher","event":"agent_stop","success":true,"duration_ms":337860}
+{"t":0,"agent":"a2fdb97","agent_type":"web-researcher","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"system","event":"skill_invoked","skill_name":"web-research"}
+{"t":0,"agent":"a6c321d","agent_type":"paper-researcher","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a13d911","agent_type":"community-researcher","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"ab22254","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a6c321d","agent_type":"paper-researcher","event":"agent_stop","success":true,"duration_ms":576730}
+{"t":0,"agent":"a13d911","agent_type":"community-researcher","event":"agent_stop","success":true,"duration_ms":559458}
+{"t":0,"agent":"abc1551","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a2fdb97","agent_type":"web-researcher","event":"agent_stop","success":true,"duration_ms":1013579}
+{"t":0,"agent":"a0d4dd1","agent_type":"unknown","event":"agent_stop","success":true}

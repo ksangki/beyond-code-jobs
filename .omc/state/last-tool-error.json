@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"/Users/1112022/source/github/book-writer/beyond-code-org/research/web.md\"}",
+  "error": "File content (26280 tokens) exceeds maximum allowed tokens (25000). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file.",
+  "timestamp": "2026-05-16T07:12:34.529Z",
+  "retry_count": 1
+}
