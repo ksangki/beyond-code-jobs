@@ -7,7 +7,7 @@
 ## 읽기
 
 - **웹 버전**: [GitHub Pages에서 읽기](https://ksangki.github.io/beyond-code-jobs/)
-- **EPUB**: [`코드-너머의-직업들-v1.0.0.epub`](코드-너머의-직업들-v1.0.0.epub) 다운로드
+- **EPUB**: [`코드-너머의-직업들-v1.1.1.epub`](코드-너머의-직업들-v1.1.1.epub) 다운로드
 
 ## 목차
 

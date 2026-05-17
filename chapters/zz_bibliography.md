@@ -83,7 +83,7 @@
 - 네이트 뉴스. "다룰 사람이 없다 — 텅 빈 한국 AI 두뇌." 2026-01-05.
 - ZDNet Korea. "삼성SDS·LG CNS·SK C&C, 인사 키워드는 'AX'." 2025-12-05.
 - ZDNet Korea. "2026 채용 트렌드: 4~7년차 경력직 + AI 활용 인재." 2025-12-08.
-- SK Devocean 블로그. 에이닷 LLM 운영·프롬프트 엔지니어링 사례 다수. https://devocean.sk.com/
+- DEVOCEAN 블로그. 에이닷 LLM 운영·프롬프트 엔지니어링 사례 다수. https://devocean.sk.com/
 - LBox Team. "LLM 기반 application LBox AI 개발기." Medium. https://medium.com/lbox-team/
 - 당근. "AI 툴 개발은 처음이라." Medium. https://medium.com/daangn/
 - SmartFN. "LG CNS, AI 11개 직무 1,000명 채용." 2026. https://www.smartfn.co.kr/news/articleView.html?idxno=110739

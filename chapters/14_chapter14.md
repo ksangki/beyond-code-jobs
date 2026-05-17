@@ -190,7 +190,7 @@ Langfuse 한국 도입 활성도와 한국 회사들의 데이터 주권 선호�
 | 7장 AI PM | Lenny's Newsletter 디스코드, AI Engineer 슬랙 |
 | 8장 FDE | a16z 행사, AI Engineer World's Fair (Swyx) |
 | 9장 Applied AI | PyTorch KR 디스코드, OKKY AI 카테고리, AI Engineer 슬랙 |
-| 10장 AgentOps | SREcon, SK Devocean 글 정기 구독, Langfuse Discord |
+| 10장 AgentOps | SREcon, DEVOCEAN 글 정기 구독, Langfuse Discord |
 | 11장 Eval Engineer | Maven AI Evals 코스 알럼니, hamel.dev 블로그 |
 
 한 커뮤니티에서 *주 2회 발언*. 단순한 좋아요가 아니라 *내용 있는 발언*. 30일이면 *얼굴이 알려진 정도*까지 갈 수 있습니다.

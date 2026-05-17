@@ -37,7 +37,7 @@ GPU와 데이터센터는 깔리는 중이고, 자본은 들어오는 중인데,
 
 **삼성.** Samsung Advanced Institute of Technology(SAIT) 안에 AI 연구 인력이 집중되어 있습니다. 이와 별도로 *삼성SDS*가 *AI 컨설팅·SI* 영역에서 빠르게 자리를 만들고 있습니다. ZDNet Korea의 2025년 12월 기사가 *"삼성SDS·LG CNS·SK C&C, 인사 키워드는 'AX'… 전략은 '동상이몽'"*이라고 짚었습니다. AX(AI Transformation)가 *그룹사 인사 전반의 키워드*가 되었습니다.
 
-**SK 텔레콤.** AI Personal Agent 라인이 핵심 전략. 에이닷의 운영팀이 사실상 *한국형 AgentOps*를 가장 명시적으로 수행 중. SK Devocean 블로그에 다수 사례 공개. SK C&C가 *AX 컨설팅·SI* 일감을 가져갑니다.
+**SK 텔레콤.** AI Personal Agent 라인이 핵심 전략. 에이닷의 운영팀이 사실상 *한국형 AgentOps*를 가장 명시적으로 수행 중. DEVOCEAN 블로그에 다수 사례 공개. SK C&C가 *AX 컨설팅·SI* 일감을 가져갑니다.
 
 **LG.** LG AI Research가 *EXAONE* 자체 모델을 운영합니다. Research Scientist/Engineer 직군이 *frontier lab에 가까운 일*을 합니다. 동시에 LG CNS가 *AI 직군 11개 직무 1,000명*을 채용 중. LG가 *자체 모델 + 응용 SI*를 동시에 가져가는 양상.
 

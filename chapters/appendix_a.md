@@ -76,7 +76,7 @@
 
 **한국 등장 여부.** *프롬프트 엔지니어*라는 자리는 한국에 잠깐 등장했다가 *AI PM이나 Applied AI Engineer에 통합*되는 양상. 별도 직군화는 일어나지 않을 가능성이 높습니다. SK 에이닷 운영팀의 *프롬프트 엔지니어링 일감*이 한국 사례.
 
-**더 깊이 알 자료.** An Vu, Jonas Oppenlaender의 *Prompt Engineer Skill Requirements*(arXiv:2506.00058). 한국에서는 SK Devocean의 프롬프트 엔지니어링 사례 글.
+**더 깊이 알 자료.** An Vu, Jonas Oppenlaender의 *Prompt Engineer Skill Requirements*(arXiv:2506.00058). 한국에서는 DEVOCEAN의 프롬프트 엔지니어링 사례 글.
 
 **옮겨갈 때 가장 큰 갭.** *행동 설계*에 대한 사고. *모델이 어떤 상황에서 어떻게 행동해야 하는지의 전체 시스템*을 설계하는 사고.
 
@@ -136,9 +136,9 @@
 
 **본론 5개와의 관계.** 본론 5개 직군과 직접적 짝은 아니지만, *9장 Applied AI Engineer와 10장 Agent 운영자*가 활용하는 직원 학습 인프라를 책임집니다. *기업 차원의 AI 리터러시*를 책임지는 자리.
 
-**한국 등장 여부.** 공식 직책으로는 거의 없음. 일부 대기업의 *HRD 부서*에서 *AI 활용 교육 프로그램*을 새로 만들기 시작한 신호. SK Devocean의 *5단계 내재화 모델*에서 *학습·PoC 단계*를 책임지는 역할이 가장 가까운 변형.
+**한국 등장 여부.** 공식 직책으로는 거의 없음. 일부 대기업의 *HRD 부서*에서 *AI 활용 교육 프로그램*을 새로 만들기 시작한 신호. DEVOCEAN의 *5단계 내재화 모델*에서 *학습·PoC 단계*를 책임지는 역할이 가장 가까운 변형.
 
-**더 깊이 알 자료.** Josh Bersin의 *Superworker*·*Job Redesign Around AI* 글. 한국에서는 SK Devocean의 5단계 내재화 글.
+**더 깊이 알 자료.** Josh Bersin의 *Superworker*·*Job Redesign Around AI* 글. 한국에서는 DEVOCEAN의 5단계 내재화 글.
 
 **옮겨갈 때 가장 큰 갭.** *최신 AI 도구의 실제 사용 경험*. 직접 써보지 않은 사람이 가르치기 어려운 자리. *기존 L&D 인력의 재훈련*이 가장 흔한 진입 경로.
 
