@@ -8,7 +8,8 @@
 
 - **웹 버전**: [GitHub Pages에서 읽기](https://ksangki.github.io/beyond-code-jobs/)
 - **오프닝 영상**: [60초 모션그래픽](https://ksangki.github.io/beyond-code-jobs/media/opening.mp4) · 웹 버전 첫 화면에도 실려 있다
-- **EPUB**: [`코드-너머의-직업들-v1.1.1.epub`](코드-너머의-직업들-v1.1.1.epub) 다운로드
+- **EPUB**: [`코드-너머의-직업들-v1.1.2.epub`](docs/epub/코드-너머의-직업들-v1.1.2.epub) 다운로드
+- **판 이력**: v1.1.2 (2026-11-01): 문체 점검 — AI 문체 패턴 169곳 정리, 내용·수치 변경 없음
 
 ## 목차
 
