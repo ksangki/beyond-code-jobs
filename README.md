@@ -62,4 +62,4 @@
 
 ## 라이선스
 
-MIT
+책 본문은 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko)(저작자 표시·비영리·동일조건 변경허락)으로 배포한다. EPUB 메타데이터(rights)와 같은 표기다.
