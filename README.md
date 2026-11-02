@@ -9,9 +9,10 @@
 - **웹 버전**: [GitHub Pages에서 읽기](https://ksangki.github.io/beyond-code-jobs/)
 - **오프닝 영상**: [60초 모션그래픽](https://ksangki.github.io/beyond-code-jobs/media/opening.mp4) · 웹 버전 첫 화면에도 실려 있다
 - **발표 자료**: [1시간 발표 슬라이드](https://ksangki.github.io/beyond-code-jobs/presentation/) · 원천 `deck/slides.py`
-- **EPUB**: [`코드-너머의-직업들-v1.1.3.epub`](docs/epub/코드-너머의-직업들-v1.1.3.epub) 다운로드
+- **EPUB**: [`코드-너머의-직업들-v1.1.4.epub`](docs/epub/코드-너머의-직업들-v1.1.4.epub) 다운로드
 - **판 이력**: v1.1.2 (2026-11-01): 문체 점검 — AI 문체 패턴 169곳 정리, 내용·수치 변경 없음
 - **판 이력**: v1.1.3 (2026-11-01): 내용 정합성 정리 — 10·13·14장 수치·출처 표기, 간주곡 장 참조, 8장 일반화 범위
+- **판 이력**: v1.1.4 (2026-11-02): 7장 수진의 회사 소재를 13장 사례와 같은 한국으로 맞춤, 웹 책 표 가로 넘침 보정
 
 ## 목차
 
