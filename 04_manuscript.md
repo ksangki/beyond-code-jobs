@@ -5,7 +5,7 @@
 **저자:** 김상기
 **시리즈:** 코드 너머의
 **전작:** 코드 너머의 시대 (한빛미디어)
-**버전:** 1.1.7
+**버전:** 1.1.8
 **발행일:** 2026-05-17
 **개정일:** 2026-11-07
 **판 이력:** v1.1.2: 문체 점검, AI 문체 패턴 169곳 정리, 내용·수치 변경 없음
@@ -14,6 +14,7 @@
 **판 이력:** v1.1.5: 문체 2차 점검(한국어 표현 지침), 248곳 정리, 내용·수치 변경 없음
 **판 이력:** v1.1.6: 참고문헌 Threads 링크가 링크로 보이도록 고침, 내용·수치 변경 없음
 **판 이력:** v1.1.7: 참고문헌 주소를 링크로 바꾸고 접근 확인, 3곳 주소 갱신, 내용·수치 변경 없음
+**판 이력:** v1.1.8: 열리지 않는 참고문헌 한 항목을 뺌, 본문 변경 없음
 
 ---
 
@@ -3468,7 +3469,6 @@ David Autor의 *2018년 직업의 60%가 1940년에는 이름조차 없었다*�
 
 ## 8. 한국 시장 자료
 
-- 영주.dev. "SI 산업의 AI 대전환." 2026-03-23. https://www.youngju.dev/blog/culture/2026-03-23-si-industry-ai-transformation-career-guide
 - 영주.dev. "AI 플랫폼: LLM 모니터링 도구 비교 (LangSmith·Langfuse·Arize)." 2026-03-09. <https://web.archive.org/web/20260509200439/https://www.youngju.dev/blog/ai-platform/2026-03-09-ai-platform-llm-monitoring-langsmith-langfuse-arize>
 - KMJournal. "한국 AI 발목 잡는 인력난." 2026. <https://www.kmjournal.net/news/articleView.html?idxno=7040>
 - 네이트 뉴스. "다룰 사람이 없다 — 텅 빈 한국 AI 두뇌." 2026-01-05.

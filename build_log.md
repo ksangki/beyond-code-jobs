@@ -1,8 +1,8 @@
-# Build Log — 코드 너머의 직업들 v1.1.7
+# Build Log — 코드 너머의 직업들 v1.1.8
 
-- **Date:** 2026-11-06T23:32:37Z
-- **Output:** `코드-너머의-직업들-v1.1.7.epub`
-- **Size:** 265113 bytes
+- **Date:** 2026-11-06T23:51:15Z
+- **Output:** `코드-너머의-직업들-v1.1.8.epub`
+- **Size:** 265095 bytes
 - **Pandoc exit:** 0
 - **epubcheck:** passed
 - **epubcheck strict:** 1
@@ -14,7 +14,7 @@
 - title: 코드 너머의 직업들
 - author: 김상기
 - language: ko
-- version: 1.1.7
+- version: 1.1.8
 - pub_date: 2026-05-17
 - identifier: urn:uuid:d006f6ad-708c-4916-a591-109a9bdb0e26
 - license: CC BY-NC-SA 4.0

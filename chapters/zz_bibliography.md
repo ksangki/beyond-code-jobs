@@ -77,7 +77,6 @@
 
 ## 8. 한국 시장 자료
 
-- 영주.dev. "SI 산업의 AI 대전환." 2026-03-23. https://www.youngju.dev/blog/culture/2026-03-23-si-industry-ai-transformation-career-guide
 - 영주.dev. "AI 플랫폼: LLM 모니터링 도구 비교 (LangSmith·Langfuse·Arize)." 2026-03-09. <https://web.archive.org/web/20260509200439/https://www.youngju.dev/blog/ai-platform/2026-03-09-ai-platform-llm-monitoring-langsmith-langfuse-arize>
 - KMJournal. "한국 AI 발목 잡는 인력난." 2026. <https://www.kmjournal.net/news/articleView.html?idxno=7040>
 - 네이트 뉴스. "다룰 사람이 없다 — 텅 빈 한국 AI 두뇌." 2026-01-05.
