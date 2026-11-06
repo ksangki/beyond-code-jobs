@@ -5,13 +5,14 @@
 **저자:** 김상기
 **시리즈:** 코드 너머의
 **전작:** 코드 너머의 시대 (한빛미디어)
-**버전:** 1.1.5
+**버전:** 1.1.6
 **발행일:** 2026-05-17
 **개정일:** 2026-11-07
 **판 이력:** v1.1.2: 문체 점검, AI 문체 패턴 169곳 정리, 내용·수치 변경 없음
 **판 이력:** v1.1.3: 내용 정합성 정리, 10·13·14장 수치·출처 표기, 간주곡 장 참조, 8장 일반화 범위
 **판 이력:** v1.1.4: 7장 수진의 회사 소재를 13장 사례와 같은 한국으로 맞춤, 웹 책 표 가로 넘침 보정
 **판 이력:** v1.1.5: 문체 2차 점검(한국어 표현 지침), 248곳 정리, 내용·수치 변경 없음
+**판 이력:** v1.1.6: 참고문헌 Threads 링크가 링크로 보이도록 고침, 내용·수치 변경 없음
 
 ---
 
@@ -3480,7 +3481,7 @@ David Autor의 *2018년 직업의 60%가 1940년에는 이름조차 없었다*�
 - 잡코리아. *PMPO Day* 행사 자료. 2025. https://www.jobkorea.co.kr/goodjob/tip/view?News_No=22472
 - OKKY. 다수 토론(AI 엔지니어 현실, ML 진로 등). https://okky.kr/
 - velog. 다수 글(qlgks1, dkvlg, imkkuk, yaza 등). https://velog.io/
-- Threads. jmhong2020. *한국 AI 채용 트렌드 분석*. https://www.threads.com/@jmhong2020/post/DQSPetlEufT
+- Threads. jmhong2020. *한국 AI 채용 트렌드 분석*. <https://www.threads.com/@jmhong2020/post/DQSPetlEufT>
 - sudormrf.run. *LangSmith 사용 후기 (SKT 강의)*. https://sudormrf.run/2024/08/17/langsmith_review/
 - PyTorch KR 디스코드 토론.
 - Langfuse 한국어 공식 문서. https://langfuse.com/kr

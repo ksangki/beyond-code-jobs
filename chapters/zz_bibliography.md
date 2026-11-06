@@ -91,7 +91,7 @@
 - 잡코리아. *PMPO Day* 행사 자료. 2025. https://www.jobkorea.co.kr/goodjob/tip/view?News_No=22472
 - OKKY. 다수 토론(AI 엔지니어 현실, ML 진로 등). https://okky.kr/
 - velog. 다수 글(qlgks1, dkvlg, imkkuk, yaza 등). https://velog.io/
-- Threads. jmhong2020. *한국 AI 채용 트렌드 분석*. https://www.threads.com/@jmhong2020/post/DQSPetlEufT
+- Threads. jmhong2020. *한국 AI 채용 트렌드 분석*. <https://www.threads.com/@jmhong2020/post/DQSPetlEufT>
 - sudormrf.run. *LangSmith 사용 후기 (SKT 강의)*. https://sudormrf.run/2024/08/17/langsmith_review/
 - PyTorch KR 디스코드 토론.
 - Langfuse 한국어 공식 문서. https://langfuse.com/kr
