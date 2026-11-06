@@ -22,7 +22,7 @@ Anthropic이 자기 회사 *Research Engineer, Model Evaluations* 자리의 채�
 - *ML 모델, 특히 LLM의 evaluation system 설계 경험*
 - *distributed computing 경험*
 
-(출처: https://job-boards.greenhouse.io/anthropic/jobs/4990535008)
+(출처: <https://web.archive.org/web/20260213181053/https://job-boards.greenhouse.io/anthropic/jobs/4990535008>)
 
 이 채용 공고를 한 문장으로 옮기면, *모델의 품질을 측정하는 시스템 자체를 만드는 사람*입니다. 모델을 만드는 사람과 응용하는 사람 *사이에서, 측정의 기준을 짜는 사람*입니다.
 

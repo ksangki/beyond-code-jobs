@@ -193,3 +193,99 @@ v1.1.2 점검에서 남긴 문제 가운데 저자가 승인한 다섯 건을 �
 - EPUB: 하네스 `build_epub.sh`(book-writer 1.11.0)로 `docs/epub/코드-너머의-직업들-v1.1.6.epub`, epubcheck 0 오류·0 경고. EPUB 안에 해당 `<a href>` 1개, 인용 표기 0개.
 - 웹: 같은 pandoc 설정으로 v1.1.5·v1.1.6 원고를 변환해 나온 차이(앞부속 버전·판 이력, 참고문헌 한 줄)만 `docs/index.html`에 옮기고 hero 판본을 v1.1.6으로 바꿨다. 덱은 건드리지 않았다.
 - Playwright(390·1440): 웹·덱 문서 폭 = 화면 폭, 넘침 0. 웹에 해당 a 태그 1개, `span.citation` 0개, 목차 링크 183개 모두 본문 id와 맞음, 오프닝 영상·발표 자료 링크 유지.
+
+## 참고문헌 주소 링크·접근 확인 — v1.1.7 (2026-11-07)
+
+- 범위: 원고의 주소 64개 전부(참고문헌 63개, 11장 본문 출처 1개). v1.1.6에서 감싼 Threads 주소도 다시 확인했다.
+- 방법: curl `-sIL`(실패하면 GET), 브라우저 User-Agent, 타임아웃 20초. 200이 아니거나 리다이렉트가 수상한 주소는 Playwright(showreel 스킬의 playwright-core, Chromium 1248)로 다시 열어 응답·쪽 제목을 확인했다. 결과가 404이거나 도메인이 사라진 주소는 같은 출처의 옮긴 주소를 찾고, 없으면 Wayback Machine 보관본을 찾았다.
+- 결과: 열림 60개(주소 그대로 `<URL>`로 감쌈), 보관본으로 교체 3개, 못 찾음 1개. 같은 출처의 새 주소로 옮긴 경우는 없었다.
+- Cloudflare 사람 확인 화면이 뜨는 4개(OUP DOI 3개, SSRN 1개)는 Playwright(헤드리스·창 띄움 둘 다)로도 넘지 못했다. DOI는 Crossref 메타데이터 제목이 서지와 같고 출판사 논문 쪽으로 해석되며, SSRN은 Wayback에 2026-10-24 정상 보관본이 있어 열림으로 판단했다.
+
+### 주소 갱신 (전 → 후)
+
+| 위치 | 전 | 후 | 근거 |
+|---|---|---|---|
+| 참고문헌 1절 Perez 2002 | http://pombo.free.fr/carlota2002.pdf | https://web.archive.org/web/20240801135259/http://pombo.free.fr/carlota2002.pdf | 404. 보관본 PDF 첫 쪽이 같은 책(Edward Elgar) |
+| 참고문헌 7절 영주.dev (LLM 모니터링) | https://www.youngju.dev/blog/ai-platform/2026-03-09-ai-platform-llm-monitoring-langsmith-langfuse-arize | https://web.archive.org/web/20260509200439/https://www.youngju.dev/blog/ai-platform/2026-03-09-ai-platform-llm-monitoring-langsmith-langfuse-arize | 도메인 만료(주차 페이지). 보관본 제목·날짜 2026-03-09 일치 |
+| 11장 본문 출처 (Anthropic 채용 공고) | https://job-boards.greenhouse.io/anthropic/jobs/4990535008 | https://web.archive.org/web/20260213181053/https://job-boards.greenhouse.io/anthropic/jobs/4990535008 | 공고 마감(목록 오류 화면으로 이동). 보관본 제목 "[Expression of Interest] Research Engineer, Model Evaluations" |
+
+### 못 찾음 (링크로 감싸지 않고 그대로 둠, 저자 결정)
+
+- 참고문헌 7절 영주.dev. "SI 산업의 AI 대전환." 2026-03-23. https://www.youngju.dev/blog/culture/2026-03-23-si-industry-ai-transformation-career-guide : 도메인 만료(GoDaddy 주차 페이지). 검색에 나온 같은 도메인의 /split/·/transcribe/ 주소도 같은 상태이고, Wayback에는 세 주소 모두 보관본이 없다.
+
+### 확인 표
+
+| # | URL | curl | 브라우저(Playwright) | 판단 |
+|---|---|---|---|---|
+| 1 | http://pombo.free.fr/carlota2002.pdf | 404→GET 404 | 404 404 Not Found | 안 열림(404, 같은 사이트에 옮긴 곳 없음). Wayback 보관본(2024-08-01, 같은 책 PDF 확인)으로 교체 |
+| 2 | https://doi.org/10.1093/cje/bep051 | 403→GET 403 | 403 Just a moment... | 열림으로 판단. 출판사(OUP) Cloudflare 사람 확인 화면. DOI가 해당 논문 쪽으로 해석되고 Crossref 제목 일치 |
+| 3 | https://www.nber.org/papers/w4148 | 200 | 200 General Purpose Technologies "Engines of Growth?" | 열림 |
+| 4 | http://digamo.free.fr/david90.pdf | 200 | 200 | 열림 |
+| 5 | https://doi.org/10.2307/2234208 | 403→GET 403 | 403 Just a moment... | 열림으로 판단. OUP Cloudflare 사람 확인 화면. Crossref 제목 일치 |
+| 6 | https://doi.org/10.1257/mac.20180386 | 403→GET 403 | 200 The Productivity J-Curve: How Intangibles Compleme | 열림. curl 봇 차단, 브라우저 200·제목 일치 |
+| 7 | https://www.nber.org/papers/w31161 | 200 | 200 Generative AI at Work / NBER | 열림 |
+| 8 | https://www.nber.org/papers/w32487 | 200 | 200 The Simple Macroeconomics of AI / NBER | 열림 |
+| 9 | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321 | 403→GET 403 | 403 Just a moment... | 열림으로 판단. SSRN Cloudflare 사람 확인 화면. Wayback에 2026-10-24 정상 보관(200) |
+| 10 | https://doi.org/10.1093/qje/qjae008 | 403→GET 403 | 403 Just a moment... | 열림으로 판단. OUP Cloudflare 사람 확인 화면. Crossref 제목 일치 |
+| 11 | https://doi.org/10.1257/jep.33.2.3 | 403→GET 403 | 200 Automation and New Tasks: How Technology Displaces | 열림. curl 봇 차단, 브라우저 200·제목 일치 |
+| 12 | https://www.anthropic.com/economic-index | 200 | 200 The Anthropic Economic Index \ Anthropic | 열림 |
+| 13 | https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf | 200 | 200 | 열림 |
+| 14 | https://www.weforum.org/publications/the-future-of-jobs-report-2025/ | 403→GET 403 | 200 The Future of Jobs Report 2025 / World Economic Fo | 열림. curl 봇 차단, 브라우저 200·제목 일치 |
+| 15 | https://hai.stanford.edu/ai-index/2025-ai-index-report | 200 | 200 The 2025 AI Index Report / Stanford HAI | 열림 |
+| 16 | https://arxiv.org/abs/2308.11432 | 200 | 200 [2308.11432] A Survey on Large Language Model base | 열림 |
+| 17 | https://arxiv.org/abs/2402.02716 | 200 | 200 [2402.02716] Understanding the planning of LLM age | 열림 |
+| 18 | https://arxiv.org/abs/2503.13657 | 200 | 200 [2503.13657] Why Do Multi-Agent LLM Systems Fail? | 열림 |
+| 19 | https://arxiv.org/abs/2306.05685 | 200 | 200 [2306.05685] Judging LLM-as-a-Judge with MT-Bench | 열림 |
+| 20 | https://arxiv.org/abs/2311.09783 | 200 | 200 [2311.09783] Investigating Data Contamination in M | 열림 |
+| 21 | https://arxiv.org/abs/2211.09110 | 200 | 200 [2211.09110] Holistic Evaluation of Language Model | 열림 |
+| 22 | https://economicgraph.linkedin.com/research/future-of-work-report-ai | 404→GET 200 | 200 Future of Work Report: AI at Work | 열림. pulse.linkedin.com 같은 보고서로 리다이렉트, 제목 일치. 주소는 그대로 |
+| 23 | https://www.onetcenter.org/dataUpdates.html | 200 | 200 O*NET® Occupation Update Summary at O*NET Resource | 열림 |
+| 24 | https://bloomberry.com/blog/i-analyzed-1000-forward-deployed-engineer-jobs-what-i-learned/ | 200 | 200 What I learned analyzing 1K forward deployed engin | 열림 |
+| 25 | https://www.pewresearch.org/internet/2012/03/01/nearly-half-of-american-adults-are-smartphone-owners/ | 200 | 200 Nearly half of American adults are smartphone owne | 열림 |
+| 26 | https://www.pewresearch.org/internet/2013/06/05/smartphone-ownership-2013/ | 200 | 200 Smartphone Ownership 2013 / Pew Research Center | 열림 |
+| 27 | https://cloudindex.bvp.com/ | 200 | 200 404: This page could not be found | 열림. 첫 로드 때 404 문구가 잠깐 보였으나 재확인에서 Overview 지수 화면 |
+| 28 | https://www.bvp.com/atlas/the-cloud-100-benchmarks-report | 200 | 200 The Cloud 100 Benchmarks Report 2025 / Bessemer Ve | 열림 |
+| 29 | https://epoch.ai/data-insights/llm-inference-price-trends | 200 | 200 LLM inference prices have fallen rapidly but unequ | 열림 |
+| 30 | https://artificialanalysis.ai/ | 200 | 200 AI Model & API Providers Analysis / Artificial Ana | 열림 |
+| 31 | https://fin.ai/pricing | 200 | 200 Fin AI Agent Pricing / Free 14-day Trial | 열림 |
+| 32 | https://www.zendesk.com/newsroom/articles/zendesk-outcome-based-pricing/ | 200 | 200 Zendesk First in CX Industry to offer Outcome-Base | 열림 |
+| 33 | https://techcrunch.com/2025/11/21/bret-taylors-sierra-reaches-100m-arr-in-under-two-years/ | 200 | 200 Bret Taylor's Sierra reaches $100M ARR in under tw | 열림 |
+| 34 | https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/ | 200 | 200 Klarna changes its AI tune and again recruits huma | 열림 |
+| 35 | https://openai.com/index/klarna/ | 403→GET 403 | 200 Klarna's AI assistant does the work of 700 full-ti | 열림. curl 봇 차단, 브라우저 200·제목 일치 |
+| 36 | https://www.saastr.com/ | 200 | 403 SaaStrAI / B2B + AI Community, Events, Leads | 열림. 브라우저 응답 403이지만 화면은 정상 표시(curl 200) |
+| 37 | https://www.latent.space/p/ai-engineer | 200 | 200 The Rise of the AI Engineer — Latent Space | 열림 |
+| 38 | https://hamel.dev/blog/posts/evals-faq/ | 200 | 200 AI Evals: Everything You Need to Know – Hamel’s Bl | 열림 |
+| 39 | https://maven.com/ | 200 | 200 Maven / Unlock your career growth | 열림 |
+| 40 | https://aakashgupta.medium.com/i-interviewed-100-ai-product-managers-heres-what-they-actually-do-9e55d393a287 | 403→GET 403 | 200 I Interviewed 100+ AI Product Managers. Here’s Wha | 열림. curl 봇 차단, 브라우저 200·제목 일치 |
+| 41 | https://www.lennysnewsletter.com/p/ai-and-product-management-marily | 200 | 200 AI and product management / Marily Nika (Meta, Goo | 열림 |
+| 42 | https://a16z.com/services-led-growth/ | 200 | 200 Trading Margin for Moat: Why the Forward Deployed | 열림 |
+| 43 | https://www.dbreunig.com/2025/08/21/a-guide-to-ai-titles.html | 200 | 200 Making Sense of AI Job Titles | 열림 |
+| 44 | https://www.ibm.com/think/topics/agentops | 200 | 200 What is AgentOps? / IBM | 열림 |
+| 45 | https://galileo.ai/blog/best-llm-reliability-solutions | 200 | 200 8 Best LLM Reliability Solutions for Production / | 열림 |
+| 46 | https://www.youngju.dev/blog/culture/2026-03-23-si-industry-ai-transformation-career-guide | 200 | 200 | 도메인 만료(주차 페이지 /lander). 옮긴 주소·Wayback 보관본 모두 없음. 링크로 감싸지 않고 둠(저자 결정) |
+| 47 | https://www.youngju.dev/blog/ai-platform/2026-03-09-ai-platform-llm-monitoring-langsmith-langfuse-arize | 200 | 200 | 도메인 만료(주차 페이지 /lander). Wayback 보관본(2026-05-09, 같은 제목·날짜 확인)으로 교체 |
+| 48 | https://www.kmjournal.net/news/articleView.html?idxno=7040 | 404→GET 200 | 200 GPU는 쌓였는데 사람이 없다… 한국 AI 발목 잡는 인력난 < AI·XR < 뉴스 < 뉴 | 열림. HEAD만 404, GET·브라우저 200, 기사 제목 일치 |
+| 49 | https://devocean.sk.com/ | 200 | 200 데보션 (DEVOCEAN) 기술 블로그 & 커뮤니티 | 열림 |
+| 50 | https://medium.com/lbox-team/ | 403→GET 403 | 200 LBOX Team | 열림. curl 봇 차단, 브라우저 200·제목 일치 |
+| 51 | https://medium.com/daangn/ | 403→GET 403 | 200 당근 기술 블로그 | 열림. curl 봇 차단, 브라우저 200·제목 일치 |
+| 52 | https://www.smartfn.co.kr/news/articleView.html?idxno=110739 | 404→GET 200 | 200 LG CNS, AI 인재 확보 위해 경력직 전문가 모집 < 컴퓨팅 < IT·과학 < 기사본 | 열림. smartbizn.com 같은 기사 번호로 리다이렉트, 본문에 "11개 직무"·"1000명" 확인. 주소는 그대로 |
+| 53 | https://careers.upstage.ai/ | 200 | 200 Upstage 채용 | 열림 |
+| 54 | https://www.jobkorea.co.kr/goodjob/tip/view?News_No=22472 | 200 | 200 잡코리아 / 퇴근 후 밋업 PMPO DAY 생생한 현장 스케치 후기 | 열림 |
+| 55 | https://okky.kr/ | 200 | 200 OKKY - All That Developer | 열림 |
+| 56 | https://velog.io/ | 200 | 200 velog | 열림 |
+| 57 | https://www.threads.com/@jmhong2020/post/DQSPetlEufT | 200 | 200 "AI 에이전트" 관련 대기업 채용 트렌드 분석 결과 1. 연구자🧑‍🔬 < 응용 엔지니어🧑 | 열림 |
+| 58 | https://sudormrf.run/2024/08/17/langsmith_review/ | 200 | 200 LangSmith, 사용 후기 | 열림 |
+| 59 | https://langfuse.com/kr | 200 | 200 Langfuse - 한국어 개요 - Langfuse | 열림 |
+| 60 | https://www.levels.fyi/companies/anthropic/salaries/software-engineer | 405→GET 405 | 200 Anthropic Software Engineer Salary / $483K-$1.41M+ | 열림. curl 봇 차단, 브라우저 200·제목 일치 |
+| 61 | https://www.levels.fyi/companies/openai/salaries/software-engineer | 405→GET 405 | 200 OpenAI Software Engineer Salary / $249K-$1.89M+ / | 열림. curl 봇 차단, 브라우저 200·제목 일치 |
+| 62 | https://www.teamblind.com/ | 200 | 200 Blind - Anonymous and Professional Community | 열림 |
+| 63 | https://www.sundeepteki.org/forward-deployed-engineer.html | 200 | 200 Forward Deployed Engineer Coaching / FDE Career Pr | 열림 |
+| 64 | https://job-boards.greenhouse.io/anthropic/jobs/4990535008 | 200 | 200 Jobs at Anthropic | (11장 본문 출처) 공고 마감, 채용 목록 오류 화면으로 이동. Wayback 보관본(2026-02-13, 제목 "Research Engineer, Model Evaluations" 확인)으로 교체 |
+
+### 빌드·검증
+
+- 서지 정보(저자·제목·연도)는 바꾸지 않았다. 주소를 뺀 원고 텍스트는 v1.1.6과 앞부속 버전·판 이력 줄만 다르다(스크립트 대조).
+- 통합 원고: 같은 순서·구분자로 `chapters/`를 재조립.
+- EPUB: 하네스 `build_epub.sh`(book-writer 1.11.0)로 `docs/epub/코드-너머의-직업들-v1.1.7.epub`, epubcheck 0 오류·0 경고. EPUB 안 외부 `<a href>` 63개, 인용 표기 0개.
+- 웹: 같은 pandoc 설정(`--toc --toc-depth=2`, html5)과 표 감싸개 후처리로 v1.1.6 원고를 변환한 구간이 기존 `docs/index.html`과 같음을 확인한 뒤 v1.1.7 원고로 교체했다. hero 판본 v1.1.7.
+- Playwright(390·1440): 문서 폭 = 화면 폭, 넘침 0, 본문 주소 링크(a.uri) 63개 중 화면 밖으로 나가는 것 0(기존 `main p, main li { overflow-wrap:break-word }`로 줄바꿈). 페이지 a 태그 185 → 247개. 목차 링크 183개 모두 본문 id와 맞음, 오프닝 영상·발표 자료 링크 유지. 덱은 건드리지 않았다.
