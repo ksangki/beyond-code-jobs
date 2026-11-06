@@ -1,6 +1,6 @@
 # 부록 A. 빠르게 자라는 다른 자리들
 
-본론 5개 직업이 *책의 무게중심*이었습니다. AI Product Manager. Forward Deployed Engineer. Applied AI Engineer. Agent 운영자. Eval Engineer.
+본론의 5개 직업 AI Product Manager, Forward Deployed Engineer, Applied AI Engineer, Agent 운영자, Eval Engineer가 *책의 무게중심*이었습니다.
 
 그러나 새 자리가 만들어지는 풍경이 *이 다섯 자리에서 끝나지 않습니다*. 본론에 넣을 만큼 자료가 두텁지는 않지만, *알아 둘 만한* 자리들이 추가로 있습니다. 부록에 짧게 카탈로그로 정리합니다.
 
@@ -10,7 +10,7 @@
 
 ---
 
-# 묶음 1 — 기술·제품 인접 자리
+# 묶음 1: 기술·제품 인접 자리
 
 ## 1. Solutions Architect (AI)
 
@@ -110,7 +110,7 @@
 
 ---
 
-# 묶음 2 — 조직·운영 인접 자리
+# 묶음 2: 조직·운영 인접 자리
 
 본론 5개와 부록 묶음 1이 *기술·제품 측면의 새 직군*이라면, 묶음 2는 *조직·운영 측면의 새 직군*입니다. 시리즈 III *코드 너머의 조직*에서 다룬 AX 시대 조직 운영의 한 자리와 짝지어 있습니다.
 
@@ -158,7 +158,7 @@
 
 ---
 
-## 11. AX Communications — 변화 커뮤니케이션 책임자
+## 11. AX Communications: 변화 커뮤니케이션 책임자
 
 **짧은 정의.** *AX 전환에 대한 내부 메시지*를 일관되게 만드는 자리. *임원·HR·기술 리더가 같은 언어로 AX를 말하도록* 정렬하는 작업. 기업 커뮤니케이션 부서의 새 역할.
 
@@ -174,7 +174,7 @@
 
 ## 12. Skill Ontology Manager
 
-**짧은 정의.** ITM의 *스킬 분류 체계*를 운영하는 자리. Fuel50이 *5,000개 스킬 온톨로지*를 운영한다는 사실 — ITM 솔루션 회사 차원에서 *스킬의 분류·정의·매핑*이 한 직무가 되어 있습니다.
+**짧은 정의.** ITM의 *스킬 분류 체계*를 운영하는 자리. Fuel50이 *5,000개 스킬 온톨로지*를 운영할 만큼, ITM 솔루션 회사 차원에서 *스킬의 분류·정의·매핑*이 한 직무가 되어 있습니다.
 
 **본론 5개와의 관계.** 10장 Agent 운영자나 11장 Eval Engineer와는 다른 차원. *People Analytics와 Skill Marketplace*가 작동하기 위한 *데이터 인프라*를 책임집니다.
 
@@ -190,9 +190,9 @@
 
 12개 자리를 두 묶음으로 정리하면 다음과 같습니다.
 
-**기술·제품 인접 (7개)** — Solutions Architect / AI Researcher-in-Residence / AI Sales Engineer / AI Customer Engineer / Prompt Architect / AI Reliability Engineer / AI Compliance·Ethics Engineer
+**기술·제품 인접 (7개)**: Solutions Architect / AI Researcher-in-Residence / AI Sales Engineer / AI Customer Engineer / Prompt Architect / AI Reliability Engineer / AI Compliance·Ethics Engineer
 
-**조직·운영 인접 (5개)** — Hybrid Manager / AI Coach / AI Literacy 프로그램 운영자 / AX Communications / Skill Ontology Manager
+**조직·운영 인접 (5개)**: Hybrid Manager / AI Coach / AI Literacy 프로그램 운영자 / AX Communications / Skill Ontology Manager
 
 본론 5개와 합치면 *17개 자리*. AX 시대의 새 직업이 *기술 측면과 조직 측면의 두 줄기*로 자라고 있고, 두 줄기가 서로 *짝지어 작동*한다는 풍경이 보입니다.
 
@@ -212,4 +212,4 @@ David Autor의 *2018년 직업의 60%가 1940년에는 이름조차 없었다*�
 
 ---
 
-*— 부록 A 끝.*
+*부록 A 끝.*

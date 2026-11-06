@@ -1,7 +1,7 @@
-# 2장. 시차는 점점 짧아진다 — 그리고 AI는 더 빠르다
+# 2장. 시차는 점점 짧아진다, 그리고 AI는 더 빠르다
 
 > *"AI 도구를 도입한 콜센터 상담사들의 시간당 해결 이슈 수는 평균 14% 늘었습니다. 신입과 저숙련 상담사에게서는 34%까지 늘었습니다."*
-> — Brynjolfsson, Li, Raymond, *Generative AI at Work* (NBER, 2023)
+> (Brynjolfsson, Li, Raymond, *Generative AI at Work*, NBER, 2023)
 
 지난 장에서 본 시차를 한 번 더 정렬해 보겠습니다.
 
@@ -53,7 +53,7 @@ AI 시대는 처음부터 글로벌이었습니다. ChatGPT는 출시 첫 주부
 
 ---
 
-## J-Curve — 보이지 않는 자본이 먼저 쌓입니다
+## J-Curve: 보이지 않는 자본이 먼저 쌓입니다
 
 시차가 짧아지긴 했지만, 그래도 시차는 *존재합니다*. 0이 되지는 않았습니다. 왜 그럴까요.
 
@@ -73,7 +73,7 @@ PC 시대의 Microsoft Office가 사무실 일하는 방식을 바꾸기까지 5
 
 ---
 
-## 콜센터에서 본 가속 — 신입이 가장 빠르게 큽니다
+## 콜센터에서 본 가속: 신입이 가장 빠르게 큽니다
 
 Brynjolfsson과 Danielle Li, Lindsey Raymond가 2023년에 또 다른 논문을 냈습니다. *Generative AI at Work*라는 제목으로 NBER에 발표된 이 연구는, 한 콜센터에서 일어난 자연 실험을 다뤘습니다.
 

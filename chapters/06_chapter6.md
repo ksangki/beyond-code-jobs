@@ -1,7 +1,7 @@
-# 6장. 새로운 비즈니스 모델 — 시트당 과금에서 결과물 과금까지
+# 6장. 새로운 비즈니스 모델: 시트당 과금에서 결과물 과금까지
 
 > *"Software shifts from aiding human productivity to autonomously completing work."*
-> — Battery Ventures, *State of AI 2025*
+> (Battery Ventures, *State of AI 2025*)
 
 에이전트가 일을 한다는 것이, 돈의 흐름을 한 단계씩 바꿉니다. SaaS의 황금기를 떠받쳤던 *시트당 과금*이 무너지기 시작했고, 그 자리에 *토큰 단위 과금*과 *결과물 과금*이 자라고 있습니다.
 
@@ -25,7 +25,7 @@ Salesforce가 사용자 한 명당 월 $25~$300으로 시작했고, HubSpot이 �
 
 ---
 
-## 토큰 단위 과금 — 두 얼굴
+## 토큰 단위 과금: 두 얼굴
 
 균열은 토큰 단위 과금에서 시작했습니다. OpenAI와 Anthropic이 API 가격을 *토큰 사용량*으로 정한 게 출발점이었습니다.
 
@@ -39,7 +39,7 @@ Battery Ventures와 Bessemer가 동시에 짚은 한 수치가 있습니다. *AI
 
 ---
 
-## 결과물 과금 — 새 모델의 챔피언들
+## 결과물 과금: 새 모델의 챔피언들
 
 결과물 단위로 과금한다는 발상은 단순합니다. *AI가 완성한 결과 1건당 얼마*. 사용량이 아니라, *성공한 일*에 가격이 매겨집니다.
 
@@ -92,7 +92,7 @@ Bret Taylor가 한 인터뷰에서 한 발언이 이 모델의 본질을 정리�
 
 ---
 
-## 빛과 그림자 — Klarna의 사례
+## 빛과 그림자: Klarna의 사례
 
 결과물 과금이 모든 경우에 성공한 것은 아닙니다.
 
@@ -119,7 +119,7 @@ Klarna의 재채용을 *결과 과금 모델의 실패*로 읽을 수도 있고,
 
 ---
 
-## 시장의 흐름 — 시트가 빠지고, 하이브리드가 자라고 있습니다
+## 시장의 흐름: 시트가 빠지고, 하이브리드가 자라고 있습니다
 
 Bessemer Venture Partners가 2026년 *AI Pricing and Monetization Playbook*에서 200개 이상의 AI 벤더를 추적한 데이터가 있습니다. 1년 전후의 가격 모델 변화를 한 줄로 정리하면 다음과 같습니다.
 
@@ -138,7 +138,7 @@ Bessemer Venture Partners가 2026년 *AI Pricing and Monetization Playbook*에�
 
 ---
 
-## AI 회사들의 매출 구조 — 한 자리에서 비교
+## AI 회사들의 매출 구조: 한 자리에서 비교
 
 이 변화 안에서 자라고 있는 회사들의 매출 구조를, 나란히 놓아 보겠습니다.
 
@@ -158,15 +158,15 @@ Bessemer Venture Partners가 2026년 *AI Pricing and Monetization Playbook*에�
 
 이 비즈니스 모델 변화가 본론 7~11장 직업들의 *KPI*를 어떻게 바꾸는지 한 줄씩 짚어 보겠습니다.
 
-**AI Product Manager (7장)** — KPI가 *기능 출시 수*에서 *결과물 단가 절감*으로 옮겨갑니다. PRD 대신 *evals*가 기능 명세를 맡습니다. 비즈니스 모델 KPI가 *Resolution Rate*나 *해지 만회 건수*가 되는 회사에서는, PM이 그 지표를 *직접* 책임집니다.
+**AI Product Manager (7장)**: KPI가 *기능 출시 수*에서 *결과물 단가 절감*으로 옮겨갑니다. PRD 대신 *evals*가 기능 명세를 맡습니다. 비즈니스 모델 KPI가 *Resolution Rate*나 *해지 만회 건수*가 되는 회사에서는, PM이 그 지표를 *직접* 책임집니다.
 
-**Forward Deployed Engineer (8장)** — KPI가 *프로젝트 마감일*에서 *현장 도입 후 결과 도달까지의 시간*으로 옮겨갑니다. 코드를 배포한 다음 *고객의 KPI가 실제로 움직이는지*가 일의 끝입니다.
+**Forward Deployed Engineer (8장)**: KPI가 *프로젝트 마감일*에서 *현장 도입 후 결과 도달까지의 시간*으로 옮겨갑니다. 코드를 배포한 다음 *고객의 KPI가 실제로 움직이는지*가 일의 끝입니다.
 
-**Applied AI Engineer (9장)** — KPI가 *응답 시간·가용성*에서 *토큰당 비용·결과당 비용*으로 옮겨갑니다. 한 번 호출에 들어가는 토큰을 줄이는 게, 백엔드 개발자의 일감이 됩니다.
+**Applied AI Engineer (9장)**: KPI가 *응답 시간·가용성*에서 *토큰당 비용·결과당 비용*으로 옮겨갑니다. 한 번 호출에 들어가는 토큰을 줄이는 게, 백엔드 개발자의 일감이 됩니다.
 
-**Agent 운영자 / AgentOps (10장)** — KPI가 *시스템 가동률*에서 *에이전트 행동의 분포*로 옮겨갑니다. 잘못 행동한 비율을 어떻게 줄일지가 일의 본질입니다.
+**Agent 운영자 / AgentOps (10장)**: KPI가 *시스템 가동률*에서 *에이전트 행동의 분포*로 옮겨갑니다. 잘못 행동한 비율을 어떻게 줄일지가 일의 본질입니다.
 
-**Eval Engineer · AI Reliability (11장)** — KPI가 *통과/실패율*에서 *측정 가능성 자체*로 옮겨갑니다. 어떤 평가셋이 *진짜 품질을 잡는지*를 책임집니다.
+**Eval Engineer · AI Reliability (11장)**: KPI가 *통과/실패율*에서 *측정 가능성 자체*로 옮겨갑니다. 어떤 평가셋이 *진짜 품질을 잡는지*를 책임집니다.
 
 다섯 개 직업 모두가, *비즈니스 모델 변화의 결과로 KPI가 다시 정의된* 자리들입니다. 이 변화가 빠를수록, 이 직업들의 가치도 빠르게 올라갑니다.
 
@@ -174,6 +174,6 @@ Bessemer Venture Partners가 2026년 *AI Pricing and Monetization Playbook*에�
 
 ## 다음 단계
 
-이제 책의 무게중심으로 들어갑니다. 7장부터 11장까지, 다섯 개 직업을 같은 다섯 칸 포맷으로 들여다봅니다. AI Product Manager. Forward Deployed Engineer. Applied AI Engineer. Agent 운영자. Eval Engineer. 5년 전에는 이름조차 명확하지 않았던 자리들이, 어떻게 일하고, 어떤 사람이 잘 맞고, 한국에서 어디로 가야 만날 수 있는 자리인지를 살펴보겠습니다.
+이제 책의 무게중심으로 들어갑니다. 7장부터 11장까지, 다섯 개 직업을 같은 다섯 칸 포맷으로 들여다봅니다. AI Product Manager, Forward Deployed Engineer, Applied AI Engineer, Agent 운영자, Eval Engineer. 5년 전에는 이름조차 명확하지 않았던 자리들이, 어떻게 일하고, 어떤 사람이 잘 맞고, 한국에서 어디로 가야 만날 수 있는 자리인지를 살펴보겠습니다.
 
 PART 3 도입부에서, 그 다섯 개 직업이 *공통으로 요구하는 능력 한 가지*와 *한국 시장에 도착한 단계*부터 먼저 정리합니다.
