@@ -107,7 +107,7 @@ Bret Taylor가 한 인터뷰에서 한 발언이 이 모델의 본질을 정리�
 
 이 발표가 시장에 큰 인상을 남겼습니다. *AI가 사람을 700명만큼 대체했다*는 메시지로 자주 인용되었습니다. 같은 기간 Klarna의 직원 수는 5,527명에서 3,422명으로 약 2,000명이 줄었습니다.
 
-그러나 2025년 후반, 풍경이 한 번 더 바뀌었습니다. Klarna가 *사람 고객 응대 인력을 다시 채용하기 시작*했습니다. *Customer Experience Dive*에 인용된 CEO Sebastian Siemiatkowski의 발언이 그 변화의 이유를 짚었습니다.
+그러나 2025년 5월, 풍경이 한 번 더 바뀌었습니다. Klarna가 *사람 고객 응대 인력을 다시 뽑겠다*고 밝혔습니다. *Customer Experience Dive*에 인용된 CEO Sebastian Siemiatkowski의 발언이 그 변화의 이유를 짚었습니다.
 
 > *"We focused too much on efficiency and cost. The result was lower quality."*
 

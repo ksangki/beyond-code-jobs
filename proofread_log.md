@@ -307,3 +307,15 @@ v1.1.2 점검에서 남긴 문제 가운데 저자가 승인한 다섯 건을 �
 - EPUB: 하네스 `build_epub.sh`(book-writer 1.11.0)로 `docs/epub/코드-너머의-직업들-v1.1.9.epub`, epubcheck 0 오류·0 경고, EPUB 안 「한빛」 0건.
 - 웹: 같은 pandoc 설정과 표 감싸개로 v1.1.8 원고를 변환한 구간이 기존 `docs/index.html`과 같음을 확인한 뒤 v1.1.9 원고로 교체, hero 판본 v1.1.9. 페이지 「한빛」 0건.
 - Playwright(390·1440): 문서 폭 = 화면 폭, 넘침 0, 주소 링크 64개(전작 주소 1개 추가), a 태그 247 → 248, 목차 링크 183개 모두 맞음, 오프닝 영상·발표 자료 링크 유지.
+
+## Klarna 재채용 발표 시점 정정 — v1.1.10 (2026-11-07)
+
+- 근거: 종합편 사실 검증(book-writer-omnibus/omnibus-2026/factcheck_log.md 03장·07장). Klarna CEO Sebastian Siemiatkowski가 사람 상담 인력을 다시 뽑겠다고 밝힌 1차 보도는 2025-05-08 Bloomberg 인터뷰다. 원고의 「2025년 후반」은 시점이 틀렸고, 「다시 채용하기 시작」도 보도 내용(방침 발표)보다 앞서 나간 표현이었다.
+- 6장(원고 1027행): 「그러나 2025년 후반, … Klarna가 *사람 고객 응대 인력을 다시 채용하기 시작*했습니다.」 → 「그러나 2025년 5월, … Klarna가 *사람 고객 응대 인력을 다시 뽑겠다*고 밝혔습니다.」
+- 막간(원고 2299행): 「*2025년 후반에 사람 고객 응대 인력을 다시 채용*하기 시작했습니다.」 → 「*2025년 5월에 사람 고객 응대 인력을 다시 뽑겠다*고 밝혔습니다.」
+- 발표 자료: deck/slides.py 6장 슬라이드 문장을 같은 취지로 고치고, docs/presentation/index.html은 그 한 문장만 직접 바꿨다(현재 덱 엔진은 다른 슬라이드 출력도 바꾸므로 다시 만들지 않음).
+- 참고문헌 6절: Bloomberg. "Klarna Turns From AI to Real Person Customer Service." Sebastian Siemiatkowski 인터뷰, 2025-05-08 추가. 주소 응답 200 확인. Customer Experience Dive 인용 표기는 그대로 두었다.
+- 고치지 않은 곳: 에필로그 「Klarna는 다시 사람을 뽑았습니다」(요약 문장, 저자 판단 대기).
+- EPUB: 하네스 `build_epub.sh`(book-writer 1.11.0)로 `docs/epub/코드-너머의-직업들-v1.1.10.epub`, epubcheck 0 오류·0 경고.
+- 웹: 같은 pandoc 설정과 표 감싸개로 v1.1.9 원고를 변환한 구간이 기존 `docs/index.html`과 같음을 확인한 뒤 v1.1.10 원고로 교체, hero 판본 v1.1.10. 목차는 바뀌지 않음.
+- Playwright(390·1440): 문서 폭 = 화면 폭, 넘침 0(웹 책·발표 자료), a 태그 249(Bloomberg 주소 1개 추가), 목차 링크 183, 오프닝 영상·발표 자료 링크 유지.

@@ -5,7 +5,7 @@
 **저자:** 김상기
 **시리즈:** 코드 너머의
 **전작:** 코드 너머의 시대 (웹 공개, <https://ksangki.github.io/beyond-code-era/>)
-**버전:** 1.1.9
+**버전:** 1.1.10
 **발행일:** 2026-05-17
 **개정일:** 2026-11-07
 **판 이력:** v1.1.2: 문체 점검, AI 문체 패턴 169곳 정리, 내용·수치 변경 없음
@@ -16,6 +16,7 @@
 **판 이력:** v1.1.7: 참고문헌 주소를 링크로 바꾸고 접근 확인, 3곳 주소 갱신, 내용·수치 변경 없음
 **판 이력:** v1.1.8: 열리지 않는 참고문헌 한 항목을 뺌, 본문 변경 없음
 **판 이력:** v1.1.9: 전작 표기 오류(출판사) 바로잡고 사실과 다른 감사 문장 삭제
+**판 이력:** v1.1.10: Klarna 재채용 발표 시점 정정(2025년 5월), 그 밖의 내용 변경 없음
 
 ---
 
@@ -1024,7 +1025,7 @@ Bret Taylor가 한 인터뷰에서 한 발언이 이 모델의 본질을 정리�
 
 이 발표가 시장에 큰 인상을 남겼습니다. *AI가 사람을 700명만큼 대체했다*는 메시지로 자주 인용되었습니다. 같은 기간 Klarna의 직원 수는 5,527명에서 3,422명으로 약 2,000명이 줄었습니다.
 
-그러나 2025년 후반, 풍경이 한 번 더 바뀌었습니다. Klarna가 *사람 고객 응대 인력을 다시 채용하기 시작*했습니다. *Customer Experience Dive*에 인용된 CEO Sebastian Siemiatkowski의 발언이 그 변화의 이유를 짚었습니다.
+그러나 2025년 5월, 풍경이 한 번 더 바뀌었습니다. Klarna가 *사람 고객 응대 인력을 다시 뽑겠다*고 밝혔습니다. *Customer Experience Dive*에 인용된 CEO Sebastian Siemiatkowski의 발언이 그 변화의 이유를 짚었습니다.
 
 > *"We focused too much on efficiency and cost. The result was lower quality."*
 
@@ -2296,7 +2297,7 @@ Eval Engineer가 *어떤 tier를 누가 책임지는지*를 명시적으로 정�
 
 ## 9. 결과 과금에도 한계가 있습니다: Klarna의 재채용
 
-**무엇이 반박되는가.** Klarna가 2024년 2월 OpenAI 협업으로 AI 어시스턴트를 도입한 다음, *2025년 후반에 사람 고객 응대 인력을 다시 채용*하기 시작했습니다. CEO Sebastian Siemiatkowski의 발언이 그 변화를 짚었습니다.
+**무엇이 반박되는가.** Klarna가 2024년 2월 OpenAI 협업으로 AI 어시스턴트를 도입한 다음, *2025년 5월에 사람 고객 응대 인력을 다시 뽑겠다*고 밝혔습니다. CEO Sebastian Siemiatkowski의 발언이 그 변화를 짚었습니다.
 
 > *"We focused too much on efficiency and cost. The result was lower quality."*
 
@@ -3449,6 +3450,7 @@ David Autor의 *2018년 직업의 60%가 1940년에는 이름조차 없었다*�
 - Zendesk Newsroom. "Zendesk First in CX Industry to offer Outcome-Based Pricing for AI Agents." 2024-08. <https://www.zendesk.com/newsroom/articles/zendesk-outcome-based-pricing/>
 - TechCrunch. "Bret Taylor's Sierra reaches $100M ARR in under two years." 2025-11-21. <https://techcrunch.com/2025/11/21/bret-taylors-sierra-reaches-100m-arr-in-under-two-years/>
 - Customer Experience Dive. "Klarna changes its AI tune." 2025. <https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/>
+- Bloomberg. "Klarna Turns From AI to Real Person Customer Service." Sebastian Siemiatkowski 인터뷰, 2025-05-08. <https://www.bloomberg.com/news/articles/2025-05-08/klarna-turns-from-ai-to-real-person-customer-service>
 - OpenAI. "Klarna's AI assistant does the work of 700 full-time agents." 2024-02. <https://openai.com/index/klarna/>
 - SaaStr. "Anthropic Just Passed OpenAI in Revenue." 2026. <https://www.saastr.com/>
 

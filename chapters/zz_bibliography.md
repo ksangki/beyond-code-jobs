@@ -58,6 +58,7 @@
 - Zendesk Newsroom. "Zendesk First in CX Industry to offer Outcome-Based Pricing for AI Agents." 2024-08. <https://www.zendesk.com/newsroom/articles/zendesk-outcome-based-pricing/>
 - TechCrunch. "Bret Taylor's Sierra reaches $100M ARR in under two years." 2025-11-21. <https://techcrunch.com/2025/11/21/bret-taylors-sierra-reaches-100m-arr-in-under-two-years/>
 - Customer Experience Dive. "Klarna changes its AI tune." 2025. <https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/>
+- Bloomberg. "Klarna Turns From AI to Real Person Customer Service." Sebastian Siemiatkowski 인터뷰, 2025-05-08. <https://www.bloomberg.com/news/articles/2025-05-08/klarna-turns-from-ai-to-real-person-customer-service>
 - OpenAI. "Klarna's AI assistant does the work of 700 full-time agents." 2024-02. <https://openai.com/index/klarna/>
 - SaaStr. "Anthropic Just Passed OpenAI in Revenue." 2026. <https://www.saastr.com/>
 

@@ -74,7 +74,7 @@
 
 ## 9. 결과 과금에도 한계가 있습니다: Klarna의 재채용
 
-**무엇이 반박되는가.** Klarna가 2024년 2월 OpenAI 협업으로 AI 어시스턴트를 도입한 다음, *2025년 후반에 사람 고객 응대 인력을 다시 채용*하기 시작했습니다. CEO Sebastian Siemiatkowski의 발언이 그 변화를 짚었습니다.
+**무엇이 반박되는가.** Klarna가 2024년 2월 OpenAI 협업으로 AI 어시스턴트를 도입한 다음, *2025년 5월에 사람 고객 응대 인력을 다시 뽑겠다*고 밝혔습니다. CEO Sebastian Siemiatkowski의 발언이 그 변화를 짚었습니다.
 
 > *"We focused too much on efficiency and cost. The result was lower quality."*
 
